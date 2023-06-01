@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+.body{
+    border: 10px solid rgb(248, 153, 129);
+    padding: 0;
+    width: 39vh;
+    background-image: radial-gradient(rgb(252, 204, 192),rgb(243, 213, 206),rgb(253, 208, 197));
+    box-shadow: 10px 10px 25px rgb(231, 74, 35);
+    border-radius: 20px;
+    overflow: hidden;
+  
+    
+
+}
+body{
+    /* border: 1px solid black; */
+    display: grid;
+    justify-content: center;
+    
+}
+#title{
+   color: rgb(231, 74, 35);
+    text-align: center;
+    padding-top: 80px;
+    
+}
+#description{
+    margin-top: 10px;
+    /* color: rgb(255, 0, 242); */
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: large;
+}
+.display{
+    background-color: rgb(248, 153, 129);
+}
+.calculator{
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: center; */
+    /* flex-direction: row-reverse; */
+    padding-left: 5px;
+    border: 0px solid;
+    background-color: transparent;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;  
+    /* padding-right: 25px; */
+    font-size: larger;
+    font-weight: bolder;
+    /* border: 15px solid rgb(248, 153, 129); */
+    background-color: rgb(230, 209, 209);
+    width: 200px;
+    margin-left: 18px;
+    margin-top: 20px;
+    /* margin-right: 50px; */
+    /* border: 1px solid rgb(74, 74, 185); */
+    /* border-radius: 43px 13px 0px 0px; */
+    overflow: hidden;
+
+    
+
+}
+input:focus{
+    outline: none;
+}
+.calc{
+    /* background-color: rgb(241, 231, 217); */
+    border-top: 5px solid rgb(248, 153, 129);
+    /* height: 50vh; */
+    /* margin-top:50px; */
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    /* padding: 15px; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:repeat(4,55px);
+    border-radius: 2px;
+    background-color: rgb(248, 153, 129);
+    /* border-radius: 0px 0px 43px 13px; */
+    
+}
+button{
+    margin: 5px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray ;
+    background-image: linear-gradient(to left,rgb(22, 22, 22),rgb(32, 32, 32),rgb(31, 30, 30),rgb(41, 40, 40),rgb(31, 30, 30),rgb(32, 32, 32),rgb(22, 22, 22));
+    color: rgb(218, 220, 221);
+    
+
+}
+button:hover{
+    color: black;
+    background-image: linear-gradient(to left ,rgb(231, 74, 35),rgb(255, 145, 1),rgb(231, 74, 35));
+    box-shadow: 5px 5px 8px rgb(231, 74, 35);
+    border-color: rgb(231, 74, 35);
+    /* margin: 10px; */
+    /* padding: 12px;
+    font-size: x-large;
+    font-weight: 800;
+    border-radius: 15px; */
+    text-align: center;
+    
+
+}
